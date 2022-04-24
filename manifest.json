@@ -1,0 +1,16 @@
+{
+  "name": "Tap Composition",
+  "short_name": "TapTapTap",
+  "theme_color": "#d36060",
+  "background_color": "#f08e8e",
+  "display": "standalone",
+  "start_url": ".",
+  "icons": [
+    {
+      "src": "images/icons/icon-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    }
+  ],
+  "splash_pages": null
+}
