@@ -2,11 +2,50 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!--Style is imported but not created right now-->
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR&display=swap"
+      rel="stylesheet"
+    />
+    <title>MixCentro</title>
   </head>
   <body>
-    <div>dd</div>
+    <div class="app">
+      <header>
+        <h1>MixCentro</h1>
+        <p>Make music with only one tap</p>
+      </header>
+      <div class="pads">
+        <div class="pad-top">
+          <div class="pad1">
+            <audio class="sound" src="./sounds/sounds_bubbles.mp3"></audio>
+          </div>
+          <div class="pad2">
+            <audio class="sound" src="./sounds/sounds_clay.mp3"></audio>
+          </div>
+          <div class="pad3">
+            <audio class="sound" src="./sounds/sounds_confetti.mp3"></audio>
+          </div>
+        </div>
+        <div class="pad-bottom">
+          <div class="pad4">
+            <audio class="sound" src="./sounds/sounds_glimmer.mp3"></audio>
+          </div>
+          <div class="pad5">
+            <audio class="sound" src="./sounds/sounds_moon.mp3"></audio>
+          </div>
+          <div class="pad6">
+            <audio class="sound" src="./sounds/sounds_ufo.mp3"></audio>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Script is imported here but not used right now-->
+    <script src="./index.js"></script>
   </body>
 </html>
