@@ -1,0 +1,11 @@
+{
+  "name": "pwa",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/wonjangcloud9/pwa.git",
+  "author": "wonjangcloud9 <48057918+wonjangcloud9@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "serve": "^13.0.2"
+  }
+}
